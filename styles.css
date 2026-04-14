@@ -307,7 +307,7 @@ button:active {
 
 
 #skipBtn {
-  padding: 10px 20px;
+  padding: 10px 10px;
   font-size: clamp(14px, 2.5vw, 18px);
   border: none;
   border-radius: 10px;
