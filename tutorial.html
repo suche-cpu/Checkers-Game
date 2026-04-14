@@ -33,6 +33,37 @@ img {
 ul {
   line-height: 1.8;
 }
+  button {
+  padding: 12px 25px;
+  border: none;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #ff9800, #ff5722);
+  color: white;
+  font-size: 4vw;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+  transition: all 0.3s ease;
+}
+
+/* hover effect */
+button:hover {
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.6);
+}
+
+/* click effect */
+button:active {
+  transform: scale(0.95);
+}
+
+/* desktop fix */
+@media (min-width: 600px) {
+  button {
+    font-size: 16px;
+  }
+}
 </style>
 </head>
 <body>
@@ -40,7 +71,7 @@ ul {
 
 <h1>Tutorial</h1>
   <a href="index.html">
-    <button class = "back">⬅ Back to Game</button>
+    <button>⬅ Back to Game</button>
   </a>
 
 <div class="card">
